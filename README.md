@@ -1,6 +1,7 @@
 # Ollama Offline usage with Gradio
 ### This tutorial is made by [jhhspace](https://jhh.moe/)
 
+Video showcasing the demo: https://img.jhh.moe/u/o3RIG0.mp4
 
 ## Prerequisites
 1. Ollama
@@ -38,8 +39,9 @@ If you did everything correctly, Visual Studio Code should open up, displaying t
 
 
 ## Running the code
-- Run `python main.py` in the Terminal/Command Prompt
-
+- Run `python no_memory.py` in the Terminal/Command Prompt for no memory capability
+- Run `python memory.py` in the Terminal/Command Prompt for memory capability
+- 
 A link should appear in the terminal. The first link is local, meaning only you can access it. The second link is global, you may share that link to your friends to play around. 
 
 NOTE: The global link resets everything you restart the gradio instance. 
