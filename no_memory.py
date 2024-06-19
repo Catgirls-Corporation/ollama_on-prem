@@ -47,6 +47,7 @@ def query_llama3(message, chat_history):
 Gradio interface
 '''
 with gr.Blocks() as demo:
+    gr.Markdown("Uncapable of memory version")
     chatbot = gr.Chatbot()
     msg = gr.Textbox(placeholder="Ask me anything!")
     clear = gr.Button("Clear Chat")
