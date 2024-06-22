@@ -44,4 +44,4 @@ If you did everything correctly, Visual Studio Code should open up, displaying t
 
 A link should appear in the terminal. The first link is local, meaning only you can access it. The second link is global, you may share that link to your friends to play around. 
 
-NOTE: The global link resets everything you restart the gradio instance. 
+NOTE: The global link resets everytime you restart the gradio instance. 
