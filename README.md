@@ -1,5 +1,9 @@
 # Ollama Offline usage with Gradio
-### This tutorial is made by [jhhspace](https://jhh.moe/)
+#### This tutorial is made by [jhhspace](https://jhh.moe/)
+
+## !!! Warning !!!
+### Ensure your Ollama Version is above 0.1.34, due to a vulnerability disclosure made in The Hacker News, code name Probllama (CVE-2024-37032)
+### https://thehackernews.com/2024/06/critical-rce-vulnerability-discovered.html?m=1
 
 Video showcasing the demo: https://img.jhh.moe/u/o3RIG0.mp4
 
