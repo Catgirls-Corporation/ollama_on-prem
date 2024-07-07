@@ -45,7 +45,8 @@ If you did everything correctly, Visual Studio Code should open up, displaying t
 ## Running the code
 - Run `python no_memory.py` in the Terminal/Command Prompt for no memory capability
 - Run `python memory.py` in the Terminal/Command Prompt for memory capability
+- Run `python custom_system_prompt.py` in the Terminal/Command Prompt for your own custom AI personality (Llama-3 is a CENSORED model, meaning you cannot do any inappropriate actions with the AI.)
 
-A link should appear in the terminal. The first link is local, meaning only you can access it. The second link is global, you may share that link to your friends to play around. 
+A link should appear in the Terminal. The first link is local, meaning only you can access it. The second link is global, you may share that link to your friends to play around. 
 
 NOTE: The global link resets everytime you restart the gradio instance. 
