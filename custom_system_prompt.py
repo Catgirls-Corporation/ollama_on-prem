@@ -91,7 +91,7 @@ def query_model(message, chat_history, stream=True):
 Gradio interface
 '''
 with gr.Blocks() as demo:
-    gr.Markdown("Memory capable version")
+    gr.Markdown("Custom prompt + memory capable version")
     chatbot = gr.Chatbot(height=600)
     msg = gr.Textbox(placeholder="Ask me anything!")
     clear = gr.Button("Clear Chat")
