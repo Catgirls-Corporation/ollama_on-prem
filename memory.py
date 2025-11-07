@@ -22,7 +22,7 @@ def query_model(message, chat_history, stream=True):
     response = requests.post(
         API_URL_CHAT,
         headers=HEADERS,
-        json={"model": "llama3", "messages": messages, "stream": stream}
+        json={"model": "llama3.2:1b", "messages": messages, "stream": stream}
     )
 
     final_response = ''
