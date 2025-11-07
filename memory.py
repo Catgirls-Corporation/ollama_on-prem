@@ -5,7 +5,7 @@ import gradio as gr
 import requests
 import json
 
-API_URL_CHAT = "http://127.0.0.1:11434/api/####" # Read the Ollama API documentation to find out what is this API endpoint!
+API_URL_CHAT = "http://127.0.0.1:11434/api/chat" # Read the Ollama API documentation to find out what is this API endpoint!
 HEADERS = {
     "Content-Type": "application/json",
 }
@@ -56,4 +56,4 @@ with gr.Blocks() as demo:
     clear.click(lambda: ([], []), None, [chatbot, msg])
 
 if __name__ == "__main__":
-    demo.launch(share=True, share_server_address="share.jhhspace.com:7000", share_server_protocol="https")
+    demo.launch()
